@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:"poppins","sans-serif";
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "poppins", sans-serif;
+    border:transparent;
+
+} 
+ .container{ 
+    border-style: hidden;
+    width: 420px;
+    border-style: solid transparent;
+    border: 2px;
+
+}
+ .header1{
+    text-align: center;
+    font-size: 30px; 
+    font-style: italic;
+}   
+
+.header2{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+.input-form{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 45px;
+    
+}
+.input-form input{
+    width: 100%;
+    height: 45px;   
+    border:none;
+    outline:none;
+    border:2px solid;
+    border-radius: 10px;
+    font-size: 20px;
+    padding:20px 45px 20px 20px;
+    margin: 2px;
+}
+.input-form input::placeholder{
+    font-size: 15px;
+}
+
+.Register-btn{
+    width: 100%;
+    height: 45px;
+    border-radius:10px;
+    margin-top:25px;
+    background-color: black;
+}
+.Register-btn a{
+    outline: none;
+    font-size: 15px;
+    border: none;
+    text-decoration:none;
+    color: white;
+}
+.login{
+    
+    text-align: center;
+    margin-top: 30px;
+}
+.login a{
+    text-decoration: none;
+    margin: 10px;
+    color: red;
+}
