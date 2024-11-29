@@ -9,12 +9,13 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     font-family: "poppins", sans-serif;
     border:transparent;
 
 } 
  .container{ 
+    margin-top: 60px;
     border-style: hidden;
     width: 420px;
     border-style: solid transparent;
@@ -78,3 +79,25 @@ body
     margin: 10px;
     color: red;
 }
+.dash{
+    background-color: black;
+    line-height: 40px;
+    margin-top: 30px;
+    width: 100px;
+    margin-left: 150px;
+    border-radius: 10px;
+
+}
+.dash a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+
+} 
+.dash a:hover{
+    cursor: pointer;
+    color: brown;
+    transition: .5s;
+
+} 
